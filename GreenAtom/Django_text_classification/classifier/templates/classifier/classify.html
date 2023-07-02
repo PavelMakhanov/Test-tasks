@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Classification</title>
+  <style>
+    body {
+      background-color: #222;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      margin-top: 30px;
+      text-align: center;
+    }
+    textarea {
+      width: 800px;
+      height: 200px;
+    }
+    input[type="submit"] {
+      margin-top: 10px;
+      width: 150px;
+      height: 50px;
+      background-color: blue;
+      color: white;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Text Classification</h1>
+  <form method="POST" action="{% url 'classify' %}">
+    {% csrf_token %}
+    <textarea name="text" placeholder="Enter text"></textarea>
+    <br>
+    <input type="submit" value="Classify">
+  </form>
+</body>
+</html>

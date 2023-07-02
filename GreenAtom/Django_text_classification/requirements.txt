@@ -1,0 +1,7 @@
+joblib
+numpy
+scikit-learn
+nltk
+string
+regex
+pymorphy2

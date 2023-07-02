@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Classification Result</title>
+  <style>
+    body {
+      background-color: #222;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .result {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .score {
+      margin-top: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Classification Result</h1>
+  <div class="result">
+    <strong>Predicted class:</strong> {{ prediction }}
+  </div>
+  <div class="score">
+    <strong>Review score:</strong> {{ review_score }}
+  </div>
+</body>
+</html>
