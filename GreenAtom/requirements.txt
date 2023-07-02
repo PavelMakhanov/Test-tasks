@@ -1,0 +1,8 @@
+Django==3.2.5
+joblib==1.0.1
+numpy==1.21.0
+scikit-learn==0.24.2
+nltk==3.6.2
+stringcase==1.2.0
+regex==2021.7.6
+pymorphy2==0.9.1
