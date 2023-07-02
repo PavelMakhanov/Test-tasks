@@ -1,0 +1,1 @@
+Датасет Large Movie Review доступен для скачивания по ссылке https://ai.stanford.edu/~amaas/data/sentiment/
